@@ -33,6 +33,9 @@ const SignUp = () => {
     } else {
       alert("Form cannot be submitted!");
     }
+    setEmail("");
+    setPassword("");
+    setCnfPassword("");
   };
 
   return (
